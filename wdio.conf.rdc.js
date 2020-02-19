@@ -9,9 +9,13 @@ const rdcOptions = {
         testobject_device: process.env.TESTOBJECT_DEVICE,
         testobject_appium_version: process.env.TESTOBJECT_APPIUM_VERSION,
         automationName: 'UiAutomator2',
-        platformName: 'Android',
-        deviceName: 'Samsung_Galaxy_S6_real',
-        browserName: 'Chrome'
+        // platformName: 'Android',
+        // deviceName: 'Samsung_Galaxy_S6_real',
+        // browserName: 'Chrome'
+        platformName: 'iOS',
+        platformVersion: '13.2',
+        deviceName: 'iPhone.*',
+        browserName: 'Safari'
     }]
 };
 
