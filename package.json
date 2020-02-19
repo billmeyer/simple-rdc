@@ -1,0 +1,29 @@
+{
+  "name": "simple-rdc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "test-rdc": "wdio wdio.conf.rdc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billmeyer/simple-rdc.git"
+  },
+  "author": "Bill Meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billmeyer/simple-rdc/issues"
+  },
+  "homepage": "https://github.com/billmeyer/simple-rdc#readme",
+  "devDependencies": {
+    "@wdio/cli": "^5.18.7",
+    "@wdio/local-runner": "^5.18.7",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/sauce-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.18.7",
+    "chai": "^4.2.0"
+  }
+}
