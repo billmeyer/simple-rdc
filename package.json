@@ -1,22 +1,23 @@
 {
-  "name": "simple-rdc",
+  "name": "simple-rdc-wdio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "wdio wdio.conf.js",
-    "test-rdc": "wdio wdio.conf.rdc.js"
+    "test-rdc": "wdio wdio.conf.rdc.js",
+    "test-testobject": "wdio wdio.conf.testobject.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/billmeyer/simple-rdc.git"
+    "url": "git+https://github.com/billmeyer/simple-rdc-wdio.git"
   },
   "author": "Bill Meyer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/billmeyer/simple-rdc/issues"
+    "url": "https://github.com/billmeyer/simple-rdc-wdio/issues"
   },
-  "homepage": "https://github.com/billmeyer/simple-rdc#readme",
+  "homepage": "https://github.com/billmeyer/simple-rdc-wdio#readme",
   "devDependencies": {
     "@wdio/cli": "^5.18.7",
     "@wdio/local-runner": "^5.18.7",
